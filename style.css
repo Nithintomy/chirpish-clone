@@ -1,0 +1,473 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: #63acfc;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.main-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 25px;
+   
+}
+.main-para{
+    margin-left: 75%;
+    margin-top: 13px;
+}
+.para1{
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+} 
+.main-heading{
+    padding: 25px;
+}
+.para1{
+   padding: 0;
+   display: flex;   
+}
+.btn{
+    margin-left: 60%;
+    border-color: #63acfc ;
+    font-family:'HK Nova SemiBold',sans-serif;
+    width:32%;
+    background-color: #63acfc;
+    color: #fff;
+    border-radius: 24px;
+    justify-content: center;
+    border: solid 2px #63acfc;
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+    color: #63acfc;
+}
+.h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 70px;
+    line-height: 72px;
+    font-family:'Recoleta alt', sans-serif;
+    margin-bottom: 12px;
+}
+.para2{
+    text-align: center;
+    font-family: 'Recoleta alt', sans-serif;
+    margin-bottom: 24px;
+    color:  #767676;
+    
+    
+}
+.btn1{
+    
+    background-color: #63acfc;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'HK Nova SemiBold', sans-serif;;
+    border-color: #63acfc;
+    border-style: unset;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+   
+    
+}
+.btn1:hover{
+    background: #fff;
+    color: black;
+    border: solid 2px #63acfc;
+}
+
+.img1{
+    text-align: center;
+   width: 40%;
+   height: 20%;
+  
+    
+
+
+}
+.details-company{
+   display: flex;
+   align-items: center;
+   display: grid;
+   grid-template-columns: 5fr 5fr 5fr 5fr ;
+   margin-left: 330px;
+   font-family: 'Recoleta alt', sans-serif;;
+   font-size: 21px;
+   
+}
+.brand{
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    font-family: 'Recoleta alt', sans-serif;
+}
+.more{
+    text-align: center;
+    color: #767676;
+}
+.more a{
+    color: #63acfc;
+    text-decoration: none;
+}
+.review-cards{
+    padding: 5px;
+    max-width:960px ;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.main-text{
+
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-family: 'Recoleta alt', sans-serif;
+    font-size: 20px;
+}
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5px 0;
+}
+.rating-stars{
+    flex: 1;
+    border: 1px solid whitesmoke;
+    margin: 2px;
+    padding: 10px;
+    background: whitesmoke;
+    
+}
+.small-text{
+    color: #767676;
+    
+}
+
+.sub-text{
+    color: #767676;
+    text-align: center;
+}
+.logo1{
+    text-align: center;
+    flex: 1;
+    border: 1px solid whitesmoke;
+    margin: 2px;
+    padding: 10px;
+    border-color: #fff;
+
+}
+.future-plans{
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-1{
+    padding: 15px;
+}    
+.arrow-down{
+    height: 36px;
+    min-width: 112px;
+
+}
+
+
+.arrow-up{
+    height: 36px;
+    min-width: 112px;
+    transform: rotate(350deg);  
+}
+.img2{
+    width: 40%;
+    height: 20%;
+    
+     
+}
+h3{
+    text-align: center;
+}
+.stars{
+    width: 30px;
+    margin-top: 20px;
+    
+    
+}
+.star-pos{
+    margin-top: -73px;
+}
+.support-text{
+    max-width: 100%;
+    margin-top: -338px;
+    font-family:'Recoleta alt','Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode','Geneva',Verdana,sans-serif;
+    font-size: 35px;
+    padding-top: 25px ;
+
+}
+.customer-support{
+    background-color: #63acfc;
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+    min-height: 560px;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f8fbff;
+}
+.adjust-support{
+    text-align: center;
+}
+
+.headphone{
+    width: 35%;
+    display: flex;
+    
+}
+.top-plane{
+    width: 20%;
+    transform: rotate(-40deg);
+    margin-top: -61px;
+  
+}
+.plane-pos{
+    text-align: right;
+    margin-right: 122px;
+}
+
+   
+.live-supports{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 8px ;
+    
+}
+.padding{
+    padding: 5px;
+}
+.air-plane2{
+    width: 60%;
+    margin-top: -86px;
+    margin-right: 41px;
+}
+.air2-pos{
+    text-align: end;
+
+}
+.support{
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Recoleta alt', sans-serif;
+    font-weight: bold;
+}
+.img3{
+    width: 274px;
+    height: 180px;
+    margin-bottom: 28px;
+}
+.main-plans{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    
+
+}
+.div1{
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f8fbff;
+    max-width: 380px;
+    min-width: 300px;
+
+}
+.div2{
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f8fbff;
+    max-width: 380px;
+    min-width: 300px;
+}
+.div3{
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f8fbff;
+    max-width: 380px;
+    min-width: 300px;
+}
+.border-part{
+    margin-top: 5px;
+    position: relative;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #f8fbff;
+    max-width: 50%;
+    min-width: 50%;
+    margin-left: 25%;
+    padding-top: 15px;
+}
+.heading1{
+    font-family: 'Recoleta alt', sans-serif;
+    font-weight: bolder;
+    
+}
+.bird-image{
+    width: 60%;
+    
+}
+.bird-pos{
+    text-align: end;
+    margin-top: -32%;
+
+}
+.main-heading2{
+    margin-left: 10%;
+    margin-top: 16%;
+    
+}
+.border-part{
+    margin-top: 4%;
+}
+.bird-head{
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.background-bird{
+    height: 700px;
+    background-image: url('./images/61c0cb7cc033fc03de16763c_customer-service-img.png');
+    background-position:100%;
+    background-size: 1100px 465px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-right: -14px;
+    padding-bottom: 55px;
+   
+    
+
+    
+}
+
+.main-body{
+    padding: 17px;
+    margin-left: 25%;
+    margin-top: 120px;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #63acfc;
+    text-align: center;
+    height: 644px;
+    
+    
+
+}
+.padding-top{
+    margin-top: -60px;
+        
+}
+.head-end{
+    font-size:38px;
+    color: #f8fbff;
+    font-family: 'Recoleta alt', sans-serif;
+    margin-top: 41px;
+    margin-bottom: -4px;
+
+}
+.para-end{
+    color: #f8fbff;
+    font-family: 'Recoleta alt', sans-serif;
+    
+}
+.btn-end{
+    width: 27%;
+    padding: 15px;
+    background-color: #f8fbff;
+    border-radius: 25px;
+    border-color:#fff;
+    border-style: none;
+    
+}
+.btn-end:hover{
+    background:#63acfc;
+    color: #fff;
+    border: solid 2px #fff;
+   
+
+}
+
+.end-div{
+   margin-right: 18%;
+   
+
+}
+.footer{
+    display: flex;
+    background-color: #f8fbff;
+    justify-content: center;
+    margin-top: 4%;
+
+}
+.bird-img{
+  margin-bottom: 18%;
+ 
+
+}
+.footer-end{
+    display: flex;
+    margin-top: -20px;
+
+    
+}
+
+.company-details{
+    font-size: 22px;
+    font-family: 'Recoleta alt', sans-serif;
+    margin-bottom: 12px;
+    font-weight:bold;
+
+}
+.footer ul{
+    list-style-type: none; 
+    margin:7rem;
+    display: flex;
+    flex-direction: column;    
+}
+.footer li{
+    padding: 2px;
+}
+
+.social{
+    color: #63acfc;
+    word-spacing: 6px;
+}
+
+  
+    
+
